@@ -1,37 +1,43 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chathura Prabashana — DevOps Enthusiast</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>Chathura Prabashana — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Header -->
+  <!-- Header / Hero -->
   <header id="main-header">
-    <div class="header-content">
+    <div class="hero">
       <h1>Chathura Prabashana</h1>
-      <p>DevOps Enthusiast & IT Undergraduate</p>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
+      <p class="tagline">DevOps Enthusiast • IT Undergraduate</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="resume.pdf" class="btn-outline" download>Download CV</a>
+      </div>
     </div>
     <button id="theme-toggle">🌙</button>
   </header>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
   <!-- About -->
   <section id="about" class="fade-section">
     <h2>About Me</h2>
     <p>
-      I am an IT undergraduate with a passion for DevOps. 
-      I enjoy building things, learning new tools, and solving problems with code. 
-      My experience includes Python, C++, and database management. 
-      Outside of coding, I love gaming, hacking, and exploring new tech.
+      I am an IT undergraduate passionate about DevOps and software engineering. 
+      I enjoy building scalable systems, automating workflows, and solving real-world problems with code. 
+      My background includes Python, C++, and database management. 
+      Outside of coding, I enjoy gaming, ethical hacking, and exploring emerging technologies.
     </p>
   </section>
 
@@ -42,7 +48,9 @@
       <li>Python</li>
       <li>C++</li>
       <li>Database Management</li>
-      <li>DevOps Tools (Docker, CI/CD, GitHub Actions)</li>
+      <li>Docker</li>
+      <li>CI/CD</li>
+      <li>GitHub Actions</li>
     </ul>
   </section>
 
@@ -51,21 +59,22 @@
     <h2>Projects</h2>
     <div class="project">
       <h3><a href="https://github.com/PrabashanaDev/bci-test-lms">bci-test-lms</a></h3>
-      <p>Learning Management System for BCI Campus. Built using Python and C++.</p>
+      <p>A Learning Management System for BCI Campus. Built with Python & C++.</p>
     </div>
     <div class="project">
       <h3><a href="https://github.com/PrabashanaDev/Crystal-Quest">Crystal-Quest</a></h3>
-      <p>A 2D web-based game using JavaScript.</p>
+      <p>A fun 2D web-based game developed using JavaScript.</p>
     </div>
     <div class="project">
       <h3><a href="https://github.com/PrabashanaDev/Voyager-Spacecraft">Voyager-Spacecraft</a></h3>
-      <p>A space mission simulation project in Python.</p>
+      <p>A space mission simulation project built in Python.</p>
     </div>
   </section>
 
   <!-- Contact -->
   <section id="contact" class="fade-section">
-    <h2>Contact Me</h2>
+    <h2>Contact</h2>
+    <p>Feel free to reach out through the following:</p>
     <ul>
       <li><a href="https://github.com/PrabashanaDev">GitHub</a></li>
       <li><a href="https://linkedin.com/in/chathura-prabashana">LinkedIn</a></li>
@@ -75,7 +84,7 @@
 
   <!-- Footer -->
   <footer>
-    <p>© 2025 Chathura Prabashana</p>
+    <p>© 2025 Chathura Prabashana. All rights reserved.</p>
   </footer>
 
   <script src="script.js"></script>

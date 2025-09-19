@@ -15,7 +15,6 @@ function revealSections() {
 
   sections.forEach(section => {
     const boxTop = section.getBoundingClientRect().top;
-
     if (boxTop < triggerBottom) {
       section.classList.add("visible");
     }
