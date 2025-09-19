@@ -1,8 +1,2 @@
-// Simple smooth scroll for nav links
-document.querySelectorAll('nav a').forEach(link => {
-  link.addEventListener('click', e => {
-    e.preventDefault();
-    document.querySelector(link.getAttribute('href'))
-      .scrollIntoView({ behavior: 'smooth' });
-  });
-});
+// Future animations or hacker effects can go here
+console.log("Portfolio loaded successfully 🟢");

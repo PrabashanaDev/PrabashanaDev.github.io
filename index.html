@@ -1,89 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chathura Prabashana — DevOps Enthusiast</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevOps Portfolio - Hacker Theme</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+  <!-- Navigation -->
+  <nav>
+    <h1><i class="fas fa-terminal"></i> DevOps Hacker</h1>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
   <!-- Hero Section -->
   <header class="hero">
     <div class="hero-content">
-      <img src="https://via.placeholder.com/150" alt="Profile Photo" class="profile-pic">
-      <div>
-        <h1>Chathura Prabashana</h1>
-        <p>DevOps Enthusiast & IT Undergraduate</p>
-        <nav>
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </div>
+      <img src="https://i.ibb.co/2jWb5L3/hacker-avatar.png" alt="Profile Photo" class="profile-img">
+      <h2 class="typing-text">Hello, I am <span class="highlight">Chathura</span></h2>
+      <p>DevOps Engineer | Cloud | Automation</p>
+      <a href="#projects" class="btn">View Projects</a>
     </div>
   </header>
 
-  <!-- About -->
+  <!-- About Section -->
   <section id="about">
     <h2>About Me</h2>
     <p>
-      I am an IT undergraduate with a passion for DevOps. I enjoy building things, learning new tools, 
-      and solving problems with code. My experience includes Python, C++, and database management. 
-      Outside of coding I love gaming, hacking, and exploring new tech.
+      I’m a passionate DevOps engineer with experience in automation, cloud technologies, and CI/CD pipelines. 
+      I love building scalable, secure, and reliable infrastructure while keeping a hacker-style curiosity to solve problems.
     </p>
   </section>
 
-  <!-- Skills -->
+  <!-- Skills Section -->
   <section id="skills">
     <h2>Skills</h2>
-    <ul class="skills-list">
-      <li><i class="fa-brands fa-python"></i> Python</li>
-      <li><i class="fa-solid fa-code"></i> C++</li>
-      <li><i class="fa-solid fa-database"></i> Database Management</li>
-      <li><i class="fa-brands fa-docker"></i> Docker, CI/CD, GitHub Actions</li>
-    </ul>
+    <div class="skills-grid">
+      <div class="skill"><i class="fab fa-aws"></i> AWS</div>
+      <div class="skill"><i class="fab fa-docker"></i> Docker</div>
+      <div class="skill"><i class="fab fa-git-alt"></i> Git</div>
+      <div class="skill"><i class="fab fa-linux"></i> Linux</div>
+      <div class="skill"><i class="fas fa-code"></i> Python</div>
+      <div class="skill"><i class="fas fa-database"></i> SQL</div>
+    </div>
   </section>
 
-  <!-- Projects -->
+  <!-- Projects Section -->
   <section id="projects">
     <h2>Projects</h2>
-    <div class="project-grid">
-      <div class="project">
-        <img src="https://via.placeholder.com/400x200" alt="bci-test-lms project">
-        <h3><a href="https://github.com/PrabashanaDev/bci-test-lms">bci-test-lms</a></h3>
-        <p>Learning Management System for BCI Campus. Built using Python and C++.</p>
+    <div class="projects-grid">
+      <div class="card">
+        <img src="https://placehold.co/600x400/111/0f0?text=Project+1" alt="Project 1">
+        <h3>CI/CD Pipeline</h3>
+        <p>Built an automated Jenkins pipeline integrated with Docker and Kubernetes.</p>
       </div>
-      <div class="project">
-        <img src="https://via.placeholder.com/400x200" alt="Crystal Quest game">
-        <h3><a href="https://github.com/PrabashanaDev/Crystal-Quest">Crystal-Quest</a></h3>
-        <p>A 2D web-based game using JavaScript.</p>
+      <div class="card">
+        <img src="https://placehold.co/600x400/111/0f0?text=Project+2" alt="Project 2">
+        <h3>Cloud Infra</h3>
+        <p>Deployed scalable AWS infrastructure with Terraform and Ansible.</p>
       </div>
-      <div class="project">
-        <img src="https://via.placeholder.com/400x200" alt="Voyager Spacecraft project">
-        <h3><a href="https://github.com/PrabashanaDev/Voyager-Spacecraft">Voyager-Spacecraft</a></h3>
-        <p>A space mission simulation project in Python.</p>
+      <div class="card">
+        <img src="https://placehold.co/600x400/111/0f0?text=Project+3" alt="Project 3">
+        <h3>Monitoring System</h3>
+        <p>Implemented monitoring with Prometheus and Grafana for real-time dashboards.</p>
       </div>
     </div>
   </section>
 
-  <!-- Contact -->
+  <!-- Contact Section -->
   <section id="contact">
-    <h2>Contact Me</h2>
-    <ul class="contact-list">
-      <li><a href="https://github.com/PrabashanaDev"><i class="fa-brands fa-github"></i> GitHub</a></li>
-      <li><a href="https://linkedin.com/in/chathura-prabashana"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
-      <li><a href="mailto:your-email@example.com"><i class="fa-solid fa-envelope"></i> Email</a></li>
-    </ul>
+    <h2>Contact</h2>
+    <div class="contact-info">
+      <a href="#"><i class="fab fa-github"></i> GitHub</a>
+      <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="mailto:youremail@example.com"><i class="fas fa-envelope"></i> Email</a>
+    </div>
   </section>
 
+  <!-- Footer -->
   <footer>
-    <p>© 2025 Chathura Prabashana</p>
+    <p>© 2025 Chathura | Built with ❤️ and DevOps spirit</p>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
